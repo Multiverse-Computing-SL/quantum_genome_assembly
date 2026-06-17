@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project assembles DNA sequences from short reads using quantum and quantum-inspired optimisation algorithms. The pipeline compresses a de Bruijn graph using [BCALM 2](https://github.com/GATB/bcalm), formulates the assembly problem as a QUBO (Quadratic Unconstrained Binary Optimisation), and solves it using the [Singularity Optimisation Platform](https://multiverse-computing.com/).
+This project assembles DNA sequences from short reads using quantum and quantum-inspired optimisation algorithms. The pipeline compresses a de Bruijn graph using [BCALM 2](https://github.com/GATB/bcalm), formulates the assembly problem as a QUBO (Quadratic Unconstrained Binary Optimisation), and solves it using the [Singularity Optimisation Platform](https://multiversecomputing.com/singularity).
 
 ### Pipeline summary
 
