@@ -1,0 +1,18 @@
+services:
+  project-dev:
+    build:
+      context: .
+      dockerfile: docker/dev.dockerfile
+      args:
+        TOKEN_NAME: ${TOKEN_NAME}
+        ACCESS_TOKEN: ${ACCESS_TOKEN}
+    container_name: project-dev
+    ports:
+      - "85:85"
+    volumes:
+      - .:/opt/project
+    env_file:
+      - .env
+    command: /bin/bash
+    tty: true
+

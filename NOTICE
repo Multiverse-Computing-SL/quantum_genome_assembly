@@ -1,0 +1,5 @@
+This repository is licensed under the MIT license only.
+
+This repository contains code released for reproducibility of the results reported in De novo assembly of a viral genome using quantum algorithm. It does not contain Singularity Optimization, which is proprietary software and must be obtained separately under a separate license.
+
+No rights to Singularity Optimization, including its source code, binaries, documentation, trademarks, or separately held intellectual property rights, are granted by this repository's license. The MIT applies only to the files in this repository unless otherwise stated.
